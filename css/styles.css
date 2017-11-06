@@ -1,3 +1,33 @@
+.logo{
+margin-left: 43%;
+}
+
+.foot{
+  color: white;
+}
+
+.foot img{
+  float: right;
+}
+
+h2 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 3px solid #fff;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   color: white;
+}
+
+h2 span {
+
+    padding:0 10px;
+}
+
+.title p{
+  font-size: 70px;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -43,15 +73,15 @@ html {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
-}
+/*}
 .item:nth-child(1) {
     background: url("../img/bg1.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.item:nth-child(2) {
+}*/
+.item:nth-child(1) {
     background: url("../img/bg2.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
