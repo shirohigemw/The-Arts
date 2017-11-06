@@ -1,31 +1,28 @@
 .logo{
 margin-left: 43%;
+padding-top: 20px;
 }
 
 .foot{
   color: white;
+  /*position: absolute;*/
+  /*position: fixed;*/
+bottom: 0%;
 }
 
 .foot img{
   float: right;
 }
 
-h2 {
-   width: 100%;
-   text-align: center;
-   border-bottom: 3px solid #fff;
-   line-height: 0.1em;
-   margin: 10px 0 20px;
-   color: white;
-}
-
-h2 span {
-
-    padding:0 10px;
-}
-
 .title p{
   font-size: 70px;
+}
+.row #copyright{
+  color: white;
+}
+
+.row #logos{
+  float: right;
 }
 
 html {
@@ -105,8 +102,27 @@ html {
 }
 .title {
   text-align: center;
-  margin-top: 20px;
   padding: 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+margin-top: 20px;
