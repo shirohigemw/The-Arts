@@ -1,6 +1,7 @@
 .logo{
-margin-left: 43%;
+margin-left: 40%;
 padding-top: 20px;
+
 }
 
 .foot{
@@ -14,11 +15,30 @@ bottom: 0%;
   float: right;
 }
 
+.explore {
+  margin: 5px;
+  color: white;
+  background-color: inherit;
+  border: 10px;
+}
+
+
+.title p{
+  padding-top: 300px;
+}
+
 .title p{
   font-size: 70px;
 }
+
+
+
+.row{
+  padding-top: 200px;
+}
+
 .row #copyright{
-  color: white;
+  color: #996600;
 }
 
 .row #logos{
@@ -70,22 +90,22 @@ html {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
-/*}
-.item:nth-child(1) {
+}
+/*.item:nth-child(1) {
     background: url("../img/bg1.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
     background-size: cover;
-}*/
-.item:nth-child(1) {
+}
+.item:nth-child(2) {
     background: url("../img/bg2.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-}
-.item:nth-child(3) {
+    background-size: cover;*/
+/*}*/
+.item:nth-child(1) {
     background: url("../img/bg3.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
