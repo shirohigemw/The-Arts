@@ -30,6 +30,7 @@ nav {
   justify-content: center;
   position: relative;
 }
+
 .banner{
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,5 +38,29 @@ nav {
   padding-top: 30px;
 }
 .container{
-  padding-top: 90px;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+
+.row2{
+  background-color: #996600;
+  height: 70px;
+  bottom: 0%;
+  color: white;
+  width:100%;
+}
+
+.row2 img {
+  float: right;
+  padding-bottom: 30px;
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.row2 p {
+  padding-left: 40px;
+  /*padding-top: 0px;*/
+  display: inline-block;
+  padding-top: 10px;
 }
