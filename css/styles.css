@@ -91,7 +91,7 @@ html {
         transform: translate3d(0, 0, 0);
     }
 }
-/*.item:nth-child(1) {
+.item:nth-child(1) {
     background: url("../img/bg1.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
@@ -104,8 +104,9 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;*/
-/*}*/
-.item:nth-child(1) {
+}
+
+.item:nth-child(3) {
     background: url("../img/bg3.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -126,23 +127,3 @@ html {
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-margin-top: 20px;
