@@ -31,6 +31,11 @@ nav {
   position: relative;
 }
 
+nav li:hover{
+  color: white;
+  background-color: #996600;
+}
+
 .banner{
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,4 +68,8 @@ nav {
   /*padding-top: 0px;*/
   display: inline-block;
   padding-top: 10px;
+}
+
+.row{
+  margin: inherit;
 }
