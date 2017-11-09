@@ -31,8 +31,11 @@ bottom: 0%;
   font-size: 70px;
 }
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 6ae58c9e236b0009ce07188934c4eb49b8df00c5
 .row{
   padding-top: 200px;
 }
@@ -45,6 +48,8 @@ bottom: 0%;
   float: right;
 }
 
+<<<<<<< HEAD
+=======
 html {
     position: relative;
     min-height: 100%;
@@ -121,9 +126,55 @@ html {
     width: 100%;
     height: 100%;
 }
+>>>>>>> 6ae58c9e236b0009ce07188934c4eb49b8df00c5
 .title {
   text-align: center;
   padding: 10px;
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
+<<<<<<< HEAD
+
+.logoshop{
+  padding-left: 35%;
+  padding-top: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #996600;
+}
+
+nav:before, nav:after {
+  content: "";
+  border: 1px solid #996600;
+  width: 40%;
+  height: 0;
+  margin: 10px;
+  position: relative;
+  top: 12px;
+}
+
+li {
+  float: left;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.banner{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 30px;
+}
+.container{
+  padding-top: 90px;
+}
+=======
+>>>>>>> 6ae58c9e236b0009ce07188934c4eb49b8df00c5
