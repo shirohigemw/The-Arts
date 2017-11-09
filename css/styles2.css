@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   padding-top: 50px;
-/*margin: 0 auto;*/
-/*width: 100%;*/
-
+  /*margin: 0 auto;*/
+  /*width: 100%;*/
 }
 
 ul {
@@ -17,7 +16,7 @@ ul {
 nav:before, nav:after {
   content: "";
   border: 1px solid #996600;
-  width: 40%;
+  width: 38%;
   height: 0;
   margin: 10px;
   position: relative;
@@ -36,28 +35,32 @@ nav {
   position: relative;
 }
 
-nav li:hover{
+nav li:hover {
   color: white;
   background-color: #996600;
 }
 
-.banner{
+.banner {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 30px;
 }
-.container{
+
+.container {
   padding-top: 120px;
   padding-left: 30px;
 }
 
-
-#bottombanner{
-  background-color:#996600;
+#bottombanner {
+  background-color: #996600;
   color: white;
+  margin-top: 50px;
 }
 
 #footericons img {
   float: right;
+}
+#bottombanner p {
+  padding-left: 25px;
 }
