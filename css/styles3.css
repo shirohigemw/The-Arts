@@ -1,0 +1,113 @@
+.logo {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #996600;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #996600;
+}
+
+#gallery {
+  justify-content: center;
+  display: flex;
+}
+
+/*nav bar*/
+
+nav li:hover {
+  color: #FFF;
+  background-color: #996600;
+}
+
+nav:before, nav:after {
+  content: "";
+  border: 1px solid #996600;
+  width: 30%;
+  height: 0;
+  margin: 10px;
+  position: relative;
+  top: 12px;
+}
+
+li {
+  float: left;
+  margin: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/*end of nav bar*/
+
+/*social media links*/
+
+#twitter-button:hover {
+  color: #996600;
+  text-decoration: underline overline;
+  cursor: pointer;
+  padding: 0;
+}
+
+#facebook-button:hover {
+  color: #996600;
+  text-decoration: underline overline;
+  cursor: pointer;
+  padding: 0;
+}
+
+/*end of social media links*/
+
+/*test*/
+
+/*end of test*/
+
+/*photos and the empty frames*/
+
+#artist-photo {
+  margin: inherit;
+  padding-right: 10%;
+}
+
+#artist-photo:hover {
+  cursor: pointer;
+}
+
+#El-Drake:hover {
+  color: #FFF;
+  background-color: #996600;
+}
+
+#empty-frame {
+  padding-left: 1%;
+}
+
+/*end photos and the empty frames*/
+
+/*footer*/
+
+#footer {
+  background-color: #996600;
+  color: white;
+  width: 101%;
+}
+
+#footer p {
+  padding-top: 5%;
+}
+
+/*end of footer*/
+
+/*artist-portfolio html*/
