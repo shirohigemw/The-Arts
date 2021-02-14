@@ -112,8 +112,12 @@
   text-decoration: none;
 }
 
+.row{
+  padding-top: 200px;
+  
 .row #logos {
   padding-left: 87%;
+
 }
 
 body {
@@ -121,34 +125,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav:before, nav:after {
-  content: "";
-  border: 1px solid black;
-  width: 30%;
-  height: 0;
-  margin: 10px;
-  position: relative;
-  top: 12px;
-}
-
-li {
-  float: left;
-  margin: 0 10px;
-  text-transform: uppercase;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
 
 .title {
     margin-top: 25px;
